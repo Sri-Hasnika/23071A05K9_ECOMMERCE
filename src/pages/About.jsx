@@ -48,7 +48,7 @@ function About() {
         experience.
       </Typography>
 
-      <Grid container spacing={4} sx={{ mb: 6 }}>
+      {/* <Grid container spacing={4} sx={{ mb: 6 }}>
         {features.map((feature, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
             <Card sx={{ height: '100%' }}>
@@ -64,7 +64,7 @@ function About() {
             </Card>
           </Grid>
         ))}
-      </Grid>
+      </Grid> */}
 
       <Paper elevation={3} sx={{ p: 4 }}>
         <Typography variant="h5" gutterBottom>
